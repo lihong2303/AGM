@@ -3,7 +3,7 @@ Here is the official Pytorch implementation of AGM proposed in "Boosting Multi-m
 
 **Paper Title: Boosting Multi-modal Model Performance with Adaptive Gradient Modulation**
 
-**Authors: Hong Li<sup>*</sup>, Xingyu Li<sup>*</sup>, Pengbo Hu, Yinuo Lei, Chunxiao Li, Yi Zhou**
+**Authors: Hong Li<sup> * </sup>, Xingyu Li<sup> * </sup>, Pengbo Hu, Yinuo Lei, Chunxiao Li, Yi Zhou**
 
 **Accepted by: ICCV 2023**
 
