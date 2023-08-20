@@ -20,7 +20,7 @@ This dataset can be downloaded from [here](https://github.com/CheyneyComputerSci
 
 ### 3. UR-Funny
 
-This raw datasets can be downloaded from [here](https://github.com/ROC-HCI/UR-FUNNY). Also, the processed data can be obtained from [here](https://github.com/ROC-HCI/UR-FUNNY).
+This raw dataset can be downloaded from [here](https://github.com/ROC-HCI/UR-FUNNY). Also, the processed data can be obtained from [here](https://github.com/ROC-HCI/UR-FUNNY).
 
 ### 4. AVE
 This dataset can be downloaded from [here](https://sites.google.com/view/audiovisualresearch).
@@ -40,3 +40,14 @@ This dataset can be downloaded from [here](https://drive.google.com/file/d/1tcVY
 To train the model using the following command:
 ```python 
 python main.py --data_root '' --device cuda:0 --methods Normal --modality Multimodal --fusion_type late_fusion --random_seed 999 --expt_dir checkpoint --expt_name test --batch_size 64 --EPOCHS 100 --learning_rate 0.0001 --dataset AV-MNIST --alpha 2.5 --SHAPE_contribution False
+```
+
+## Citation
+```
+@article{li2023boosting,
+  title={Boosting Multi-modal Model Performance with Adaptive Gradient Modulation},
+  author={Li, Hong and Li, Xingyu and Hu, Pengbo and Lei, Yinuo and Li, Chunxiao and Zhou, Yi},
+  journal={arXiv preprint arXiv:2308.07686},
+  year={2023}
+}
+```
