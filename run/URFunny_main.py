@@ -44,7 +44,7 @@ def train(model,train_dataloader,optimizer,scheduler,cfgs,device,logger,epoch,wr
         label = label.squeeze(1)
         label = label.to(device)
         
-        iteration = (epoch -1) * cfgs.batch_size + step + 1
+        iteration = (epoch -1) * len(train_dataloader) + step + 1
         optimizer.zero_grad()
         
         if cfgs.modality == 'Audio':
