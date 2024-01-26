@@ -44,10 +44,11 @@ python main.py --data_root '' --device cuda:0 --methods Normal --modality Multim
 
 ## Citation
 ```
-@article{li2023boosting,
+@inproceedings{li2023boosting,
   title={Boosting Multi-modal Model Performance with Adaptive Gradient Modulation},
   author={Li, Hong and Li, Xingyu and Hu, Pengbo and Lei, Yinuo and Li, Chunxiao and Zhou, Yi},
-  journal={arXiv preprint arXiv:2308.07686},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={22214--22224},
   year={2023}
 }
 ```
